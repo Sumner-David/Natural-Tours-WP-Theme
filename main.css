@@ -28,13 +28,13 @@ p {
   background: rgba(0, 0, 0, 0.8) !important;
   transition: all 0.5s;
   -webkit-backdrop-filter: blur(3px);
-          backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
 }
 
-.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
+.navbar-light .navbar-nav .show>.nav-link {
   color: #000;
   background: #fff;
 }
@@ -66,7 +66,7 @@ p {
   top: 0;
   width: 100%;
   height: 100vh;
-  background: url("/wp-content/themes/Natural-Tours-Theme/images/bannerbg.jpg");
+  background: url("https://www.davidsumner.co.uk/projects/natural_tours//wp-content/themes/Natural-Tours-Theme/images/bannerbg.jpg");
   background-size: cover;
   margin-bottom: 0;
 }
@@ -156,7 +156,7 @@ p {
 
 .placeBox .imgBx img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
@@ -191,7 +191,7 @@ p {
 
 .sec2 {
   position: relative;
-  background: url("/wp-content/themes/Natural-Tours-Theme/images/banner2old.jpg");
+  background: url("https://www.davidsumner.co.uk/projects/natural_tours/wp-content/themes/Natural-Tours-Theme/images/banner2old.jpg");
   background-size: cover;
   height: 100vh;
 }
@@ -234,7 +234,7 @@ p {
 .blogpost .imgBx img {
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100%;
 }
 
@@ -249,7 +249,8 @@ p {
   font-size: 1.5rem;
 }
 
-.btnD2, .btnD2:hover {
+.btnD2,
+.btnD2:hover {
   background: #262626;
   color: #fff;
   border-radius: 30px;
@@ -260,7 +261,7 @@ p {
 .contact {
   position: relative;
   padding: 100px 0;
-  background: url("/wp-content/themes/Natural-Tours-Theme/images/contactbg.jpg");
+  background: url("https://www.davidsumner.co.uk/projects/natural_tours/wp-content/themes/Natural-Tours-Theme/images/contactbg.jpg");
   background-size: cover;
   min-height: 100vh;
 }
@@ -346,6 +347,7 @@ footer {
     padding-left: 1rem;
   }
 }
+
 @media (max-width: 992px) {
   .navbar-light .navbar-toggler {
     background: #fff;
@@ -430,6 +432,7 @@ footer {
     font-size: 110%;
   }
 }
+
 @media (max-width: 992px) and (orientation: landscape) {
   #home .container .contentBox div h1 {
     margin-top: 60px;
